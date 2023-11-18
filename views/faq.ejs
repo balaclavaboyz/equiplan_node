@@ -1,0 +1,36 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Equiplan</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="shortcut icon"
+			href="/favicon.ico"
+			type="image/x-icon" />
+		<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="container mx-auto">
+        <%- include('./partial/navbar.ejs')%>
+        <div class="container flex flex-col gap-8">
+            <h1 class="text-3xl">Bem-Vindo ao FAQ!</h1>
+            <h2 class="text-2xl">Quais tipo de produtos e investimentos, a Equiplan oferece?</h2>
+            <p>Aquisição, Venda e Locação em Cidade de São Paulo: <br>
+                Lojas - Casas Comerciais <br>
+                Galpões - Terrenos - Áreas.</p>
+            <h2 class="text-2xl">
+                Que tipo de Consultoria, a Equiplan Oferece?
+            </h2>
+            <p>Consultoria em: <br>
+                Escolha da Localização para o Seu Negócio. <br>
+                Acompanhamento no Crescimento dos Envolvidos. <br>
+                Crescimento - Expansão - Multiplicação do Seu negócio.</p>
+            <h2 class="text-2xl">
+                Qual Horário de Atendimento?
+            </h2>
+            <p>Segunda a sexta.</p>
+        </div>
+        <%- include('./partial/footer.ejs')%>
+    </div>
+</body>
+</html>
