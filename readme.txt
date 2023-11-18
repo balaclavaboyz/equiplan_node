@@ -13,6 +13,5 @@ backlog:
         - update
         - delete
     - fazer um admin page, um crud básico para os imóveis
-        - new page
     - testes
     
